@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  /* background biru gradasi */
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #a1c4fd);
+  color: white;
+  margin: 0;
+}
+
+/* container utama */
+.container {
+  margin-top: 100px;
+}
+
+/* judul */
+h1 {
+  font-size: 32px;
+}
+
+/* teks */
+p {
+  font-size: 18px;
+}
+
+/* tombol */
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+  color: #2a5298;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* efek hover */
+button:hover {
+  background-color: #dbeafe;
+}

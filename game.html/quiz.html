@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>🧠 Quiz Dimulai!</h1>
+
+<p id="soal">Loading...</p>
+
+<button onclick="jawab('A')" id="btnA"></button><br><br>
+<button onclick="jawab('B')" id="btnB"></button><br><br>
+<button onclick="jawab('C')" id="btnC"></button><br><br>
+<button onclick="jawab('D')" id="btnD"></button>
+
+</div>
+
+<div id="hasil" style="display:none; margin-top:30px;">
+  <h2 id="nama"></h2>
+  <img id="gambar" width="200"><br><br>
+  <p id="deskripsi"></p>
+</div>
+
+<!-- hubungkan ke JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
